@@ -1,0 +1,29 @@
+{
+  "name": "javascript-test-jest",
+  "version": "1.0.0",
+  "description": "pruebas unitarias con Jest",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgechauxjr/javascript-test-jest.git"
+  },
+  "keywords": [
+    "pruebas",
+    "unitarias",
+    "jest"
+  ],
+  "author": "Jorge Chaux <jorgechauxjr@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jorgechauxjr/javascript-test-jest/issues"
+  },
+  "homepage": "https://github.com/jorgechauxjr/javascript-test-jest#readme",
+  "devDependencies": {
+    "babel-jest": "^27.3.1",
+    "babel-polyfill": "^6.26.0",
+    "jest": "^27.3.1"
+  }
+}
