@@ -27,5 +27,8 @@
     "babel-jest": "^27.3.1",
     "babel-polyfill": "^6.26.0",
     "jest": "^27.3.1"
+  },
+  "dependencies": {
+    "@types/jest": "^27.0.2"
   }
 }
