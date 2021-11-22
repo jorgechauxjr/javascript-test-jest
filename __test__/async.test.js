@@ -18,4 +18,9 @@ describe('Probar Async/Await', () => {
     const peticion = getDataFromApi(apiError);
     await expect(peticion).rejects.toEqual(Error("Request failed with status code 404"));
   });
+
+  // test('Resuelve un Hola', async () => {
+  //     await expect(Promise.resolve('Hola')).resolves.toBe('Hola');
+  //     await expect(Promise.reject('Error')).toBe('Error');
+  // });
 });
